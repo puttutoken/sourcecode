@@ -105,12 +105,12 @@ contract Puttu is StandardToken { // CHANGE THIS. Update the contract name.
     // This is a constructor function
     // which means the following function name has to match the contract name declared above
     function Puttu() {
-        balances[msg.sender] = 10000000000000000000000000000;              
-        totalSupply = 10000000000000000000000000000;                     
+        balances[msg.sender] = 30000000000000000000000000000;              
+        totalSupply = 30000000000000000000000000000;                     
         name = "Puttu";                                  
         decimals = 18;                                               
         symbol = "PUTTU";                                             
-        unitsOneEthCanBuy = 25000000;                                      
+        unitsOneEthCanBuy = 10000000;                                      
         fundsWallet = msg.sender;                                    
     }
 
